@@ -1,8 +1,0 @@
-node_modules
-bower_components
-.travis.yml
-gulpfile.js
-LICENSE
-package.json
-package-lock.json
-buffer
