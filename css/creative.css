@@ -221,7 +221,7 @@ header.masthead p {
 .portfolio-box {
   position: relative;
   display: block;
-  max-width: 650px;
+  max-width: 400px;
   margin: 0 auto;
 }
 
@@ -234,7 +234,7 @@ header.masthead p {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(240, 95, 64, 0.9);
+  background-image: linear-gradient(160deg, rgba(254,160,29,0.95), rgba(240,95,64, 0.95));  
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
@@ -309,4 +309,36 @@ header.masthead p {
 
 .btn-primary:active, .btn-primary:focus {
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
+}
+
+/* custom css */
+.img-rounded{
+  border-radius: 50%;
+  height: 160px;
+  width: 160px;
+  margin: 25px;
+}
+
+.resume-gradient{
+  background-image: linear-gradient(160deg, #fea01d, #f05f40);  
+  height: auto;
+  
+}
+
+.icon{
+  height: 80px;
+  width: 70px;
+  padding-bottom: 16px;
+}
+
+.css-scheme{
+  color: #3060a2;
+}
+
+.js-scheme{
+  color: #f7df1e;
+}
+
+.php-scheme{
+  color: #666699;
 }
